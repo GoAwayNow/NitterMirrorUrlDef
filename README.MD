@@ -28,3 +28,7 @@ By default, results will be placed on the clipboard, so they can easily be impor
 `python nude.py -f https://nitter.example.com`
 
 Once imported, matching URLs still need to be manually added to the parsers. Yeah, this sucks, but hey, you didn't have to make the URL classes, right?
+
+## Known Issues
+This is absolutely going to wreck checker timings because of unseen URLs. The only way to fix it that I can think of would be to add associated url parsers for every single mirror.  
+That's a lot.
