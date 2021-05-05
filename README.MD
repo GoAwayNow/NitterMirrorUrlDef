@@ -32,3 +32,4 @@ Once imported, matching URLs still need to be manually added to the parsers. Yea
 ## Known Issues
 This is absolutely going to wreck checker timings because of unseen URLs. The only way to fix it that I can think of would be to add associated url parsers for every single mirror.  
 That's a lot.
+Well, that or just don't use Twiit, and simply use this to have a selection. It doesn't generate GUGs, though. If you want that feature, feel free to open and issue.
