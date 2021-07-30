@@ -17,19 +17,14 @@ Well, that's where this script comes in!
 ## Usage
 First off, import this:  
 ![Twiit GUGs](/content/twiit_gugs.png)  
-Once that's imported, you'll probably want to edit the Twitter URL classes to redirect to the new twiit classes. You'll also want to change your existing Nitter subscriptions to the new Nitter (Twiit) ones, and add Twiit urls to the Nitter parsers.
+Once that's imported, you'll probably want to edit the Twitter URL classes to redirect to the new twiit classes. I don't recommend using the Twiit GUGs, as it will negatively impact your checker timings, but they're an option.
 
 When running the script with no parameters, help text will be displayed.
 
-To generate URL classes, simply pass any number of Nitter instance URLs as arguments, like so:  
+To generate URL classes and GUGs, simply pass any number of Nitter instance URLs as arguments, like so:  
 `python nude.py https://nitter.example.com https://nitter.example.org`
 
-By default, results will be placed on the clipboard, so they can easily be imported by simply clicking a button. To export to a file, pass -f to the script. The results will be saved to import_me.json.  
-`python nude.py -f https://nitter.example.com`
+Results will be saved to .json files stored in the directory from which the script was run.
 
 Once imported, matching URLs still need to be manually added to the parsers. Yeah, this sucks, but hey, you didn't have to make the URL classes, right?
 
-## Known Issues
-This is absolutely going to wreck checker timings because of unseen URLs. The only way to fix it that I can think of would be to add associated url parsers for every single mirror.  
-That's a lot.
-Well, that or just don't use Twiit, and simply use this to have a selection. It doesn't generate GUGs, though. If you want that feature, feel free to open and issue.
